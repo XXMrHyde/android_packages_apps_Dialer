@@ -139,11 +139,11 @@ public class DialerPhoneNumberListAdapter extends PhoneNumberListAdapter {
         switch (shortcutType) {
             case SHORTCUT_DIRECT_CALL:
                 text = resources.getString(R.string.search_shortcut_call_number, number);
-                drawableId = R.drawable.ic_phone_dk;
+                drawableId = R.drawable.ic_phone_lt;
                 break;
             case SHORTCUT_ADD_NUMBER_TO_CONTACTS:
                 text = resources.getString(R.string.search_shortcut_add_to_contacts);
-                drawableId = R.drawable.ic_add_person_dk;
+                drawableId = R.drawable.ic_add_person_lt;
                 break;
             default:
                 throw new IllegalArgumentException("Invalid shortcut type");

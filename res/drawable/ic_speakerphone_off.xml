@@ -16,5 +16,5 @@
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="false" android:drawable="@drawable/ic_vm_sound_off_dis" />
-    <item android:drawable="@drawable/ic_vm_sound_off_dk" />
+    <item android:drawable="@drawable/ic_vm_sound_off_lt" />
 </selector>

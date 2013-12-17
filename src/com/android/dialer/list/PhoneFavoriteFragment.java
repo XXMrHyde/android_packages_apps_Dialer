@@ -657,7 +657,7 @@ public class PhoneFavoriteFragment extends Fragment implements OnItemClickListen
 
         view.setDisplayName(resources.getString(R.string.show_all_contacts_button_text));
         view.setDrawableResource(R.drawable.list_item_avatar_bg,
-                R.drawable.ic_menu_all_contacts_dk);
+                R.drawable.ic_menu_all_contacts_lt);
         return view;
     }
 }

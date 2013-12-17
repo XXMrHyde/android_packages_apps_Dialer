@@ -570,7 +570,7 @@ public class CallDetailActivity extends Activity implements ProximitySensorAware
                     // call.
                     if (phoneUtils.canSendSmsTo(mNumber, numberPresentation)) {
                         entry.setSecondaryAction(
-                                R.drawable.ic_text_holo_light,
+                                R.drawable.ic_text_holo_dark,
                                 new Intent(Intent.ACTION_SENDTO,
                                            Uri.fromParts("sms", mNumber, null)),
                                 getString(R.string.description_send_text_message, nameOrNumber));

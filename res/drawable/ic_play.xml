@@ -17,5 +17,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="false"
         android:drawable="@drawable/ic_vm_play_dis" />
-    <item android:drawable="@drawable/ic_vm_play_dk" />
+    <item android:drawable="@drawable/ic_vm_play_lt" />
 </selector>
