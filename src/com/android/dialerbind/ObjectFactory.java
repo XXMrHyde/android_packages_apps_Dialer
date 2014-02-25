@@ -22,6 +22,7 @@ import android.content.Context;
 
 import com.android.dialer.calllog.CallLogAdapter;
 import com.android.dialer.calllog.ContactInfoHelper;
+import com.android.dialer.omni.CachedPlacesService;
 import com.android.dialer.service.CachedNumberLookupService;
 
 /**
@@ -49,5 +50,9 @@ public class ObjectFactory {
             boolean isCallLog) {
         return new CallLogAdapter(context, callFetcher, contactInfoHelper, hideSecondaryAction,
                 isCallLog);
+    }
+
+    public static CachedPlacesService newCachedPlacesService() {
+        return new CachedPlacesService();
     }
 }
