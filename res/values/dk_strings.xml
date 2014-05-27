@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013 The CyanogenMod Project
+     Copyright (C) 2014 The OmniROM Project
+     Copyright (C) 2014 DarkKat
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -49,4 +51,11 @@
     <string name="call_stats_reset_filter">Reset time range</string>
     <string name="call_stats_sort_by_duration">Sort by call duration</string>
     <string name="call_stats_sort_by_count">Sort by call count</string>
+
+    <string name="nearby_places">Nearby places</string>
+    <string name="nearby_places_distance">%1$.1f km away</string>
+    <string name="recentCalls_reverseLookup">Reverse lookup</string>
+    <string name="toast_reverse_lookup">Searching for %1$s on %2$s...</string>
+    <string name="toast_reverse_lookup_failed">No place found.</string>
+    <string name="toast_reverse_lookup_finished">Reverse lookup finished.</string>
 </resources>
