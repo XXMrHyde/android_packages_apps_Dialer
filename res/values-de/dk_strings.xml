@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013 The CyanogenMod Project
+     Copyright (C) 2014 The OmniROM Project
+     Copyright (C) 2014 DarkKat
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -49,4 +51,11 @@
     <string name="call_stats_reset_filter">Zeitbereich zurücksetzen</string>
     <string name="call_stats_sort_by_duration">Nach Anrufdauer sortieren</string>
     <string name="call_stats_sort_by_count">Nach Anzahl der Anrufe sortieren</string>
+
+    <string name="nearby_places">Orte in der Nähe</string>
+    <string name="nearby_places_distance">%1$.Wenn KM entfernt</string>
+    <string name="recentCalls_reverseLookup">Rückwärtssuche</string>
+    <string name="toast_reverse_lookup">Suche nach %1$s bei %2$s...</string>
+    <string name="toast_reverse_lookup_failed">Kein Ort gefunden.</string>
+    <string name="toast_reverse_lookup_finished">Rückwärtssuche beendet.</string>
 </resources>
