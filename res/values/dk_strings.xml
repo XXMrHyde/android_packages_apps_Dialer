@@ -58,4 +58,7 @@
     <string name="toast_reverse_lookup">Searching for %1$s on %2$s...</string>
     <string name="toast_reverse_lookup_failed">No place found.</string>
     <string name="toast_reverse_lookup_finished">Reverse lookup finished.</string>
+
+    <string name="menu_add_to_blacklist">Add to black list</string>
+    <string name="toast_added_to_blacklist">%s added to blacklist.</string>
 </resources>
