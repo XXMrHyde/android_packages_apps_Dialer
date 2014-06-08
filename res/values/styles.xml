@@ -16,7 +16,7 @@
   -->
 <resources>
     <style name="DialtactsTheme"
-           parent="android:Theme.Holo.Light">
+           parent="android:Theme.Holo">
         <item name="android:textColorPrimary">@color/dialtacts_primary_text_color</item>
         <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
         <item name="android:windowActionBarOverlay">false</item>
@@ -63,7 +63,7 @@
         <item name="contact_browser_background">@android:color/transparent</item>
         <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
         <!-- CallLog -->
-        <item name="call_log_primary_text_color">#000000</item>
+        <item name="call_log_primary_text_color">#ffffff</item>
         <item name="call_log_primary_background_color">#000000</item>
         <item name="call_log_secondary_text_color">@color/dialtacts_secondary_text_color</item>
         <item name="call_log_secondary_background_color">#333333</item>
@@ -71,7 +71,7 @@
         <!-- VoicemailStatus -->
         <item name="call_log_voicemail_status_height">48dip</item>
         <item name="call_log_voicemail_status_background_color">#262626</item>
-        <item name="call_log_voicemail_status_text_color">#888888</item>
+        <item name="call_log_voicemail_status_text_color">#777777</item>
         <item name="call_log_voicemail_status_action_text_color">#33b5e5</item>
             <!-- Favorites -->
         <item name="favorites_padding_bottom">?android:attr/actionBarSize</item>
@@ -108,7 +108,7 @@
         <item name="android:windowActionBarOverlay">true</item>
     </style>
 
-    <style name="CallDetailActivityTheme" parent="android:Theme.Holo.Light">
+    <style name="CallDetailActivityTheme" parent="android:Theme.Holo">
         <item name="android:windowBackground">@color/background_dialer_list_items</item>
         <item name="android:gravity">top</item>
         <item name="android:listViewStyle">@style/ListViewStyle</item>
@@ -116,15 +116,15 @@
         <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
         <!-- CallLog -->
-        <item name="call_log_primary_text_color">#333333</item>
-        <item name="call_log_primary_background_color">#FFFFFF</item>
-        <item name="call_log_secondary_text_color">#333333</item>
-        <item name="call_log_secondary_background_color">#FFFFFF</item>
-        <item name="call_log_header_color">#FFFFFF</item>
+        <item name="call_log_primary_text_color">#cccccc</item>
+        <item name="call_log_primary_background_color">#000000</item>
+        <item name="call_log_secondary_text_color">#cccccc</item>
+        <item name="call_log_secondary_background_color">#000000</item>
+        <item name="call_log_header_color">#000000</item>
         <!-- VoicemailStatus -->
         <item name="call_log_voicemail_status_height">48dip</item>
         <item name="call_log_voicemail_status_background_color">#262626</item>
-        <item name="call_log_voicemail_status_text_color">#888888</item>
+        <item name="call_log_voicemail_status_text_color">#777777</item>
         <item name="call_log_voicemail_status_action_text_color">#33b5e5</item>
     </style>
 
@@ -172,7 +172,7 @@
 
     <style name="DialtactsActionBarStyle" parent="android:Widget.Holo.ActionBar">
         <item name="android:background">@drawable/call_history_actionbar_background</item>
-        <item name="android:backgroundStacked">#ffffff</item>
+        <item name="android:backgroundStacked">#000000</item>
         <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
         <!-- Empty icon -->
         <item name="android:icon">@android:color/transparent</item>
@@ -201,14 +201,14 @@
 
     <!-- Text style for tabs. -->
     <style name="DialtactsActionBarTabTextStyle"
-           parent="android:style/Widget.Holo.Light.ActionBar.TabText">
+           parent="android:style/Widget.Holo.ActionBar.TabText">
         <item name="android:textColor">@color/tab_text_color</item>
         <item name="android:textSize">@dimen/tab_text_size</item>
         <item name="android:fontFamily">@string/tab_font_family</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="ListViewStyle" parent="@android:style/Widget.Holo.Light.ListView">
+    <style name="ListViewStyle" parent="@android:style/Widget.Holo.ListView">
         <item name="android:overScrollMode">always</item>
     </style>
 
