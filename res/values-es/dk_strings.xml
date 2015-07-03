@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="menu_add_to_blacklist">Add to blacklist</string> <!-- Needs translation -->
-    <string name="toast_added_to_blacklist">%s added to blacklist.</string> <!-- Needs translation -->
+    <string name="menu_add_to_blacklist">Añadir a la lista negra</string>
+    <string name="toast_added_to_blacklist">%s añadido a la lista negra.</string>
 </resources>
 
